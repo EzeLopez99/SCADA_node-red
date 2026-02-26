@@ -1,0 +1,3267 @@
+[
+    {
+        "id": "tab_abb_banco",
+        "type": "tab",
+        "label": "SCADA",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ec67dcab9bb655c6",
+        "type": "group",
+        "z": "tab_abb_banco",
+        "name": "ACTUADORES",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "aa157a7b414eea78",
+            "61bc098ff6fdbd7f",
+            "8232dc8eb3478c62",
+            "a303aabcace578eb",
+            "94cbd12077617033",
+            "ad62bcbe4d9b9637",
+            "3004fdca14850ac4",
+            "b0b1fdb516e4b236"
+        ],
+        "x": 48,
+        "y": 873,
+        "w": 1698,
+        "h": 914
+    },
+    {
+        "id": "047aa244d943cc9a",
+        "type": "group",
+        "z": "tab_abb_banco",
+        "name": "Sensores",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3031252e336a90bd",
+            "76b654457a318178",
+            "43cd2f446fbfc038"
+        ],
+        "x": 48,
+        "y": 13,
+        "w": 1084,
+        "h": 834
+    },
+    {
+        "id": "5539db3c5822d3c5",
+        "type": "group",
+        "z": "tab_abb_banco",
+        "name": "Captura del ensayo",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2af45a15306e3085",
+            "1d2a40086d23a609",
+            "5c5e76777b391101",
+            "15cd691b3a54fd63",
+            "9d1f6c9c978fd91b",
+            "7850ff0a60bbebb1",
+            "set_global_filename",
+            "fn_format_toast_name",
+            "ui_toast_filename",
+            "32282781252910cd",
+            "92d1992fb6fedd39",
+            "b53c59e20a5659e7",
+            "631c9edf5abf101b",
+            "80bd4b203030b668",
+            "fcb6e03900b39434"
+        ],
+        "x": 64,
+        "y": 1799,
+        "w": 1062,
+        "h": 322
+    },
+    {
+        "id": "ad62bcbe4d9b9637",
+        "type": "group",
+        "z": "tab_abb_banco",
+        "g": "ec67dcab9bb655c6",
+        "name": "Selector de Frecuencia - VFD 1",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fn_b1",
+            "fn_ff_b1_decode",
+            "ad22231a09c0932b",
+            "2d48b37e3b2837e8",
+            "ee9c3ea4e7b41b57",
+            "8c7ed0db9543a022",
+            "e3d4e3bd51ea4b94",
+            "a321d630c5170342",
+            "8747e15140afed47",
+            "68e2fd9f9cdbdbb7"
+        ],
+        "x": 74,
+        "y": 899,
+        "w": 1112,
+        "h": 242
+    },
+    {
+        "id": "3004fdca14850ac4",
+        "type": "group",
+        "z": "tab_abb_banco",
+        "g": "ec67dcab9bb655c6",
+        "name": "Selector de Frecuencia - VFD 2",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a56bda772de4e040",
+            "70c7714593bab02b",
+            "def755fdf659f382",
+            "11d28d41a2d81b24",
+            "edcdbcc6b018faa2",
+            "d1e398e62c2c184c",
+            "b421020f0a40315b",
+            "09cbd1b9fda0b9dd",
+            "a5ebccd99462c48f"
+        ],
+        "x": 74,
+        "y": 1159,
+        "w": 1112,
+        "h": 242
+    },
+    {
+        "id": "3031252e336a90bd",
+        "type": "group",
+        "z": "tab_abb_banco",
+        "g": "047aa244d943cc9a",
+        "name": "Lectura de Variables Electricas",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true,
+            "label-position": "n",
+            "color": "#ff0000"
+        },
+        "nodes": [
+            "d7447d11695806e8",
+            "2469088b7fb7f0ba",
+            "a9df61a98be7fdb0",
+            "7b23a6e0088c90ee",
+            "9699dc16daab02a7",
+            "39a1bfe078769774",
+            "d0e875786044dc98",
+            "4bd3a4bc0a41acb2",
+            "06689f61964e87dd",
+            "3252e01a50bdec71",
+            "1df9bd36c24e4767"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 1032,
+        "h": 262
+    },
+    {
+        "id": "76b654457a318178",
+        "type": "group",
+        "z": "tab_abb_banco",
+        "g": "047aa244d943cc9a",
+        "name": "Lectura de RPM",
+        "style": {
+            "label": true,
+            "stroke": "#ff0000",
+            "label-position": "n",
+            "color": "#ff0000"
+        },
+        "nodes": [
+            "6dfc9f90798a0954",
+            "27d380b4c51338ac",
+            "57c886a7cb9fd4e3",
+            "04612a5006082fe6"
+        ],
+        "x": 74,
+        "y": 319,
+        "w": 1032,
+        "h": 122
+    },
+    {
+        "id": "b0b1fdb516e4b236",
+        "type": "group",
+        "z": "tab_abb_banco",
+        "g": "ec67dcab9bb655c6",
+        "name": "Valvula de Control",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7aed9dfcaf40036e",
+            "30a4ae46ac4e528e",
+            "c5d031986ee6903e",
+            "5c20c7aa95b72919",
+            "f3f5c9f1c8ad082c",
+            "ce1205d0a8633a47",
+            "d44861f2bd3eef1a",
+            "f878bacfa8e01bf7",
+            "e541f8d7bcdd4bb0",
+            "4e1d686ea23d34bc",
+            "ce0f82d4fd273c2b",
+            "b833ce1407fbcda0",
+            "6682057330aa40e6",
+            "416a5ec422bf4f24",
+            "4063be2330e145c2",
+            "5745bfab80d57909",
+            "3ec5f6c0d4eebc9c"
+        ],
+        "x": 74,
+        "y": 1419,
+        "w": 1042,
+        "h": 342
+    },
+    {
+        "id": "43cd2f446fbfc038",
+        "type": "group",
+        "z": "tab_abb_banco",
+        "g": "047aa244d943cc9a",
+        "name": "Variables Hidraulicas",
+        "style": {
+            "label": true,
+            "label-position": "n",
+            "color": "#ff3f3f"
+        },
+        "nodes": [
+            "0a60df0863cb707f",
+            "2645ca0d5c922888",
+            "221775f19e9a7636",
+            "8586887fee3f71b1",
+            "9e4d5ec685e2756d",
+            "e56879dba3127991",
+            "342417e4f4feeab2",
+            "c71cb63d4959367f",
+            "29b7e6b5d07f970e",
+            "0adf26535b59db21",
+            "d428694cd571c28b",
+            "ab3f8382d108fc7c",
+            "483aadbf26000edc",
+            "f1132877b5de879a",
+            "3f52cd0534aafe0f",
+            "45e3a0a5546be9a0",
+            "51d27fbfc5b4c97a",
+            "7f400da1c8369eea",
+            "26f060a096eaca4d"
+        ],
+        "x": 74,
+        "y": 459,
+        "w": 1032,
+        "h": 362
+    },
+    {
+        "id": "fn_b1",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "name": "SCADA →Modbus",
+        "func": "const freqMap = {FREC50_B1:0, FREC45_B1:1, FREC40_B1:2, FREC35_B1:3};\n\nlet topic = (msg.topic || '').toUpperCase().trim();\nlet topic1 = (msg.payload || '').toUpperCase().trim();\nlet outFreq = null;\nlet outCmd  = null;\n\n// 1) Frecuencia fija: igual que antes\nif (topic === 'FREQ_B1') {\n    let k = (msg.payload || '').toUpperCase().trim();\n    if (freqMap[k] === undefined) return [null, null];\n\n    let c = [false, false, false, false];\n    c[freqMap[k]] = true;\n\n    outFreq = {\n        payload: {\n            value:    c,\n            fc:       15,\n            unitid:   1,\n            address:  10,   // %M10..%M13\n            quantity: 4\n        }\n    };\n\n    return [outFreq, null];\n}\n\n// 2) Botón de MARCHA_B1 → pulso en %M1\nif (topic1 === 'MARCHA_B1') {\n    // mensaje ON\n    let msgOn = {\n        payload: {\n            value:    [true],\n            fc:       15,\n            unitid:   1,\n            address:  1,    // %M1\n            quantity: 1\n        }\n    };\n\n    // mensaje OFF\n    let msgOff = {\n        payload: {\n            value:    [false],\n            fc:       15,\n            unitid:   1,\n            address:  1,    // %M1\n            quantity: 1\n        }\n    };\n\n    // Enviamos primero ON...\n    node.send([null, msgOn]);\n\n    // ...y luego OFF después de 100 ms\n    setTimeout(function () {\n        node.send([null, msgOff]);\n    }, 100);\n\n    return null;   // ya usamos node.send\n}\n\n// 3) Botón de PARADA_B1 → pulso en %M3\nif (topic1 === 'PARADA_B1') {\n    let msgOn = {\n        payload: {\n            value:    [true],\n            fc:       15,\n            unitid:   1,\n            address:  3,    // %M3\n            quantity: 1\n        }\n    };\n\n    let msgOff = {\n        payload: {\n            value:    [false],\n            fc:       15,\n            unitid:   1,\n            address:  3,\n            quantity: 1\n        }\n    };\n\n    node.send([null, msgOn]);\n\n    setTimeout(function () {\n        node.send([null, msgOff]);\n    }, 100);\n\n    return null;\n}\n\nreturn [null, null];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 940,
+        "wires": [
+            [
+                "68e2fd9f9cdbdbb7"
+            ],
+            [
+                "68e2fd9f9cdbdbb7"
+            ]
+        ]
+    },
+    {
+        "id": "fn_ff_b1_decode",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "name": "Decodificar frecuencia B1",
+        "func": "let bits = msg.payload;\n\nif (!Array.isArray(bits) || bits.length < 3) {\n    msg.payload = \"B1 - Frecuencia actual: Sin datos\";\n    return msg;\n}\n\nlet ff35 = !!bits[0]; // %M20 -> FF1_B1 (35 Hz) en booleano (True/false)\nlet ff10 = !!bits[1]; // %M21 -> FF2_B2 (+10 Hz)\nlet ff5  = !!bits[2]; // %M22 -> FF3_B3 (+5 Hz)\n\n// --- Calculamos frecuencia final ---\nlet freq = 0;\nif (ff35) freq += 35;\nif (ff10) freq += 10;\nif (ff5)  freq += 5;\n\n// --- Resultado textual si está detenido ---\nif (freq === 0) {\n    msg.payload = \"Variador detenido\";\n    return msg;\n}\n\n// --- Velocidad sincrónica ---\nlet vel_sinc = (freq * 60) / 2;   // 2 pares de polos → divisor 2\n\nmsg.payload = `${freq} Hz | ω sincrónica: ${vel_sinc} RPM`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 1040,
+        "wires": [
+            [
+                "2d48b37e3b2837e8"
+            ]
+        ]
+    },
+    {
+        "id": "ad22231a09c0932b",
+        "type": "ui-dropdown",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "group": "85dfcd7f838ac069",
+        "name": "Selector de Frecuencia Bomba 1",
+        "label": "Seleccionar Frecuencia",
+        "tooltip": "",
+        "order": 1,
+        "width": 3,
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "chips": true,
+        "clearable": true,
+        "options": [
+            {
+                "label": "35 HZ",
+                "value": "FREC35_B1",
+                "type": "str"
+            },
+            {
+                "label": "40 HZ",
+                "value": "FREC40_B1",
+                "type": "str"
+            },
+            {
+                "label": "45 HZ",
+                "value": "FREC45_B1",
+                "type": "str"
+            },
+            {
+                "label": "50 HZ",
+                "value": "FREC50_B1",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "FREQ_B1",
+        "topicType": "str",
+        "className": "",
+        "typeIsComboBox": false,
+        "msgTrigger": "onChange",
+        "x": 440,
+        "y": 940,
+        "wires": [
+            [
+                "fn_b1"
+            ]
+        ]
+    },
+    {
+        "id": "2d48b37e3b2837e8",
+        "type": "ui-text",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "group": "85dfcd7f838ac069",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "FRECUENCIA B1",
+        "label": "Frecuencia = ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1070,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "ee9c3ea4e7b41b57",
+        "type": "modbus-read",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "name": "Leer Bobinas (VFD B1 - FF)",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "20",
+        "quantity": "3",
+        "rate": "500",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "a014513998f95979",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 500,
+        "y": 1040,
+        "wires": [
+            [
+                "fn_ff_b1_decode"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a56bda772de4e040",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "3004fdca14850ac4",
+        "name": "SCADA →Modbus",
+        "func": "const freqMap = {FREC50_B2:0, FREC45_B2:1, FREC40_B2:2, FREC35_B2:3};\n\nlet topic = (msg.topic || '').toUpperCase().trim();\nlet topic1= (msg.payload || '').toUpperCase().trim();\nlet outFreq = null;\nlet outCmd  = null;\n\n// 1) Frecuencia fija: igual que antes\nif (topic === 'FREQ_B2') {\n    let k = (msg.payload || '').toUpperCase().trim();\n    if (freqMap[k] === undefined) return [null, null];\n\n    let c = [false, false, false, false];\n    c[freqMap[k]] = true;\n\n    outFreq = {\n        payload: {\n            value:    c,\n            fc:       15,\n            unitid:   1,\n            address:  14,   // %M14..%M17\n            quantity: 4\n        }\n    };\n\n    return [outFreq, null];\n}\n\n// 2) Botón de MARCHA_B2 → pulso en %M2\nif (topic1 === 'MARCHA_B2') {\n    // mensaje ON\n    let msgOn = {\n        payload: {\n            value:    [true],\n            fc:       15,\n            unitid:   1,\n            address:  2,    // %M2\n            quantity: 1\n        }\n    };\n\n    // mensaje OFF\n    let msgOff = {\n        payload: {\n            value:    [false],\n            fc:       15,\n            unitid:   1,\n            address:  2,    // %M2\n            quantity: 1\n        }\n    };\n\n    // Enviamos primero ON...\n    node.send([null, msgOn]);\n\n    // ...y luego OFF después de 100 ms\n    setTimeout(function () {\n        node.send([null, msgOff]);\n    }, 100);\n\n    return null;   // ya usamos node.send\n}\n\n// 3) Botón de PARADA_B2 → pulso en %M4\nif (topic1 === 'PARADA_B2') {\n    let msgOn = {\n        payload: {\n            value:    [true],\n            fc:       15,\n            unitid:   1,\n            address:  4,    // %M4\n            quantity: 1\n        }\n    };\n\n    let msgOff = {\n        payload: {\n            value:    [false],\n            fc:       15,\n            unitid:   1,\n            address:  4,\n            quantity: 1\n        }\n    };\n\n    node.send([null, msgOn]);\n\n    setTimeout(function () {\n        node.send([null, msgOff]);\n    }, 100);\n\n    return null;\n}\n\nreturn [null, null];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1220,
+        "wires": [
+            [
+                "a5ebccd99462c48f"
+            ],
+            [
+                "a5ebccd99462c48f"
+            ]
+        ]
+    },
+    {
+        "id": "70c7714593bab02b",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "3004fdca14850ac4",
+        "name": "Decodificar frecuencia B2",
+        "func": "let bits = msg.payload;\n\nif (!Array.isArray(bits) || bits.length < 3) {\n    msg.payload = \"B2 - Frecuencia actual: Sin datos\";\n    return msg;\n}\n\nlet ff35 = !!bits[0]; // %M23 -> FF1_B2 (35 Hz)\nlet ff10 = !!bits[1]; // %M24 -> FF2_B2 (+10 Hz)\nlet ff5  = !!bits[2]; // %M25 -> FF3_B2 (+5 Hz)\n\n// --- Calculamos frecuencia final ---\nlet freq = 0;\nif (ff35) freq += 35;\nif (ff10) freq += 10;\nif (ff5)  freq += 5;\n\n// --- Resultado textual si está detenido ---\nif (freq === 0) {\n    msg.payload = \"Variador detenido\";\n    return msg;\n}\n\n// --- Velocidad sincrónica ---\nlet vel_sinc = (freq * 60) / 2;   // 2 pares de polos → divisor 2\n\nmsg.payload = `${freq} Hz | ω sincrónica: ${vel_sinc} RPM`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1300,
+        "wires": [
+            [
+                "11d28d41a2d81b24"
+            ]
+        ]
+    },
+    {
+        "id": "def755fdf659f382",
+        "type": "ui-dropdown",
+        "z": "tab_abb_banco",
+        "g": "3004fdca14850ac4",
+        "group": "3819de8f3e195d99",
+        "name": "Selector de Frecuencia Bomba 2",
+        "label": "Seleccionar Frecuencia:",
+        "tooltip": "",
+        "order": 1,
+        "width": 3,
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "chips": true,
+        "clearable": true,
+        "options": [
+            {
+                "label": "35 HZ",
+                "value": "FREC35_B2",
+                "type": "str"
+            },
+            {
+                "label": "40 HZ",
+                "value": "FREC40_B2",
+                "type": "str"
+            },
+            {
+                "label": "45 HZ",
+                "value": "FREC45_B2",
+                "type": "str"
+            },
+            {
+                "label": "50 HZ",
+                "value": "FREC50_B2",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "FREQ_B2",
+        "topicType": "str",
+        "className": "",
+        "typeIsComboBox": false,
+        "msgTrigger": "onChange",
+        "x": 360,
+        "y": 1200,
+        "wires": [
+            [
+                "a56bda772de4e040"
+            ]
+        ]
+    },
+    {
+        "id": "11d28d41a2d81b24",
+        "type": "ui-text",
+        "z": "tab_abb_banco",
+        "g": "3004fdca14850ac4",
+        "group": "3819de8f3e195d99",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "FRECUENCIA B2",
+        "label": "FRECUENCIA ACTUAL =",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1070,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "6dfc9f90798a0954",
+        "type": "modbus-read",
+        "z": "tab_abb_banco",
+        "g": "76b654457a318178",
+        "name": "Modbus Read - Lectura de los SR",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "200",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "a014513998f95979",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 260,
+        "y": 380,
+        "wires": [
+            [
+                "27d380b4c51338ac"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "27d380b4c51338ac",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "76b654457a318178",
+        "name": "Extrae SR-1 y SR-2 del array",
+        "func": "// Obtenemos el array de registros del nodo Modbus\nvar registros = msg.payload;\n\n// Verificamos que sea un array válido para evitar errores\nif (Array.isArray(registros) && registros.length >= 2) {\n\n    // Extraemos MW200 (primer elemento, índice 0)\n    // SR-1: Speed Register 1\n    var msgSR1 = {\n        payload: registros[1],\n        topic: \"SR-1\"\n    };\n\n    // Extraemos MW201 (segundo elemento, índice 1)\n    // SR-2: Speed Register 2\n    var msgSR2 = {\n        payload: registros[0],\n        topic: \"SR-2\"\n    };\n\n    // Devolvemos dos objetos: el primero sale por la salida 1, el segundo por la salida 2\n    return [msgSR1, msgSR2];\n\n} else {\n    // Si la lectura falló o no es un array, no devolvemos nada\n    return null;\n}",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 380,
+        "wires": [
+            [
+                "57c886a7cb9fd4e3"
+            ],
+            [
+                "04612a5006082fe6"
+            ]
+        ]
+    },
+    {
+        "id": "57c886a7cb9fd4e3",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "76b654457a318178",
+        "name": "SR-1",
+        "group": "3ae4f786a6e3e55e",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "SR-1",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "R.P.M",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1030,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04612a5006082fe6",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "76b654457a318178",
+        "name": "SR-2",
+        "group": "a3835f538e9c16d4",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "SR-2",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "R.P.M",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1030,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a60df0863cb707f",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Caudal",
+        "group": "d9fb9eb1d9102a96",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "FE-01",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "m3/h",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#de1b1b",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "9",
+        "max": "90",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1000,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2645ca0d5c922888",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "PR-11",
+        "group": "3ae4f786a6e3e55e",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "PR-11",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "bar",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-1",
+                "color": "#53ea64",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "-1",
+        "max": "3",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 990,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "221775f19e9a7636",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "",
+        "group": "3ae4f786a6e3e55e",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "PR-12",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "bar",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "6",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 990,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c7ed0db9543a022",
+        "type": "ui-button-group",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "name": "MARCHA/PARADA",
+        "group": "85dfcd7f838ac069",
+        "order": 2,
+        "width": 3,
+        "height": "1",
+        "label": "",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": false,
+        "passthru": true,
+        "options": [
+            {
+                "label": "MARCHA",
+                "icon": "ON",
+                "value": "MARCHA_B1",
+                "valueType": "str",
+                "color": "#009933"
+            },
+            {
+                "label": "PARADA",
+                "icon": "OFF",
+                "value": "PARADA_B1",
+                "valueType": "str",
+                "color": "#ff2929"
+            }
+        ],
+        "topic": "valor",
+        "topicType": "str",
+        "x": 470,
+        "y": 980,
+        "wires": [
+            [
+                "fn_b1"
+            ]
+        ]
+    },
+    {
+        "id": "8586887fee3f71b1",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "PR-21",
+        "group": "a3835f538e9c16d4",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "PR-21",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "bar",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-1",
+                "color": "#53ea64",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "-1",
+        "max": "3",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 990,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e4d5ec685e2756d",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "PR-22",
+        "group": "a3835f538e9c16d4",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "PR-22",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "bar",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "6",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 990,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e56879dba3127991",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "PR-1Q",
+        "group": "d9fb9eb1d9102a96",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "PR-1Q",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "bar",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#53ea64",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "0",
+        "max": "1",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 990,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "342417e4f4feeab2",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "PR-2Q",
+        "group": "d9fb9eb1d9102a96",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "PR-2Q",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "bar",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 990,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "edcdbcc6b018faa2",
+        "type": "modbus-read",
+        "z": "tab_abb_banco",
+        "g": "3004fdca14850ac4",
+        "name": "Leer Bobinas (VFD B2 - FF)",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "23",
+        "quantity": "3",
+        "rate": "500",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "a014513998f95979",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 400,
+        "y": 1300,
+        "wires": [
+            [
+                "70c7714593bab02b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d1e398e62c2c184c",
+        "type": "ui-button-group",
+        "z": "tab_abb_banco",
+        "g": "3004fdca14850ac4",
+        "name": "MARCHA/PARADA",
+        "group": "3819de8f3e195d99",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "MARCHA",
+                "icon": "ON",
+                "value": "MARCHA_B2",
+                "valueType": "str",
+                "color": "#009933"
+            },
+            {
+                "label": "PARADA",
+                "icon": "OFF",
+                "value": "PARADA_B2",
+                "valueType": "str",
+                "color": "#ff2929"
+            }
+        ],
+        "topic": "valor",
+        "topicType": "msg",
+        "x": 390,
+        "y": 1240,
+        "wires": [
+            [
+                "a56bda772de4e040"
+            ]
+        ]
+    },
+    {
+        "id": "d7447d11695806e8",
+        "type": "modbus-read",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "name": "Modbus Read - Lectura Variables Electricas",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "100",
+        "quantity": "24",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "a014513998f95979",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 290,
+        "y": 80,
+        "wires": [
+            [
+                "2469088b7fb7f0ba"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2469088b7fb7f0ba",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "name": "%MW a Float (electricas)",
+        "func": "// Espera leer 24 registros: %MW100..%MW123\nlet regs = msg.payload;\n\n// Si llega Buffer, convertir a array uint16\nif (Buffer.isBuffer(regs)) {\n    const arr = [];\n    for (let i = 0; i < regs.length; i += 2) arr.push(regs.readUInt16BE(i));\n    regs = arr;\n}\n\nif (!Array.isArray(regs) || regs.length < 24) {\n    node.error(\"Se esperaban 24 registros (MW100..MW123). Revisá Quantity en el Modbus Read.\", msg);\n    return [null, null];\n}\n\n// Convierte 2 words (MSW, LSW) a float IEEE-754 big-endian\nfunction toFloatBE(msw, lsw) {\n    const buf = Buffer.alloc(4);\n    buf.writeUInt16BE(msw & 0xFFFF, 0); // palabra alta\n    buf.writeUInt16BE(lsw & 0xFFFF, 2); // palabra baja\n    return buf.readFloatBE(0);\n}\n\n// Helper: índice del LSW dentro del array regs (regs[0]=MW100)\nfunction floatFromLSWIndex(iLSW) {\n    return toFloatBE(regs[iLSW + 1], regs[iLSW]);\n}\n\n// ---------------- BOMBA 1 (MW100..MW111) ----------------\nlet POT_B1 = floatFromLSWIndex(0);   // MW100-101\nlet VA_B1 = floatFromLSWIndex(2);   // MW102-103\nlet V_FASE_B1 = floatFromLSWIndex(4);   // MW104-105\nlet CURRENT_B1 = floatFromLSWIndex(6);   // MW106-107\nlet FREQUENCY_B1 = floatFromLSWIndex(8);   // MW108-109\nlet PF_B1 = floatFromLSWIndex(10);  // MW110-111\n\n// ---------------- BOMBA 2 (MW112..MW123) ----------------\nlet POT_B2 = floatFromLSWIndex(12);  // MW112-113\nlet VA_B2 = floatFromLSWIndex(14);  // MW114-115\nlet V_FASE_B2 = floatFromLSWIndex(16);  // MW116-117\nlet CURRENT_B2 = floatFromLSWIndex(18);  // MW118-119\nlet FREQUENCY_B2 = floatFromLSWIndex(20);  // MW120-121\nlet PF_B2 = floatFromLSWIndex(22);  // MW122-123\n\n// Redondeo (ajustalo si querés)\nPOT_B1 = Number(POT_B1.toFixed(2));\nVA_B1 = Number(VA_B1.toFixed(2));\nV_FASE_B1 = Number(V_FASE_B1.toFixed(1));\nCURRENT_B1 = Number(CURRENT_B1.toFixed(3));\nFREQUENCY_B1 = Number(FREQUENCY_B1.toFixed(2));\nPF_B1 = Number(PF_B1.toFixed(3));\n\nPOT_B2 = Number(POT_B2.toFixed(2));\nVA_B2 = Number(VA_B2.toFixed(2));\nV_FASE_B2 = Number(V_FASE_B2.toFixed(1));\nCURRENT_B2 = Number(CURRENT_B2.toFixed(3));\nFREQUENCY_B2 = Number(FREQUENCY_B2.toFixed(2));\nPF_B2 = Number(PF_B2.toFixed(3));\n\n// Tablas para ui-table\nconst tablaB1 = [\n    { Variable: \"Potencia Activa\",       Valor: POT_B1,       Unidad: \"W\"  },\n    { Variable: \"Potencia Aparente\",        Valor: VA_B1,        Unidad: \"VA\" },\n    { Variable: \"Voltaje\",    Valor: V_FASE_B1,    Unidad: \"V\"  },\n    { Variable: \"Corriente\",   Valor: CURRENT_B1,   Unidad: \"A\"  },\n    { Variable: \"Frecuencia\", Valor: FREQUENCY_B1, Unidad: \"Hz\" },\n    { Variable: \"Factor de potencia\",        Valor: PF_B1,        Unidad: \"—\"  } // o \"p.u.\"\n];\n\nconst tablaB2 = [\n    { Variable: \"Potencia Activa\",       Valor: POT_B2,       Unidad: \"W\"  },\n    { Variable: \"Potencia Aparente\",        Valor: VA_B2,        Unidad: \"VA\" },\n    { Variable: \"Voltaje\",    Valor: V_FASE_B2,    Unidad: \"V\"  },\n    { Variable: \"Corriente\",   Valor: CURRENT_B2,   Unidad: \"A\"  },\n    { Variable: \"Frecuencia\", Valor: FREQUENCY_B2, Unidad: \"Hz\" },\n    { Variable: \"Factor de potencia\",        Valor: PF_B2,        Unidad: \"—\"  }\n];\n\n// Guardado en flow para “snapshot” posterior (botón)\nconst elec_last = {\n    timestamp: new Date().toISOString(),\n    POT_B1, VA_B1, V_FASE_B1, CURRENT_B1, FREQUENCY_B1, PF_B1,\n    POT_B2, VA_B2, V_FASE_B2, CURRENT_B2, FREQUENCY_B2, PF_B2,\n    _ts_ms: Date.now()\n};\n\nflow.set(\"elec_last\", elec_last);\n\n// Si querés también cada variable suelta en flow (opcional)\nObject.entries(elec_last).forEach(([k, v]) => flow.set(k, v));\n\n// Salidas (2)\nreturn [\n    { payload: tablaB1 },\n    { payload: tablaB2 }\n];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 120,
+        "wires": [
+            [
+                "a9df61a98be7fdb0"
+            ],
+            [
+                "7b23a6e0088c90ee"
+            ]
+        ]
+    },
+    {
+        "id": "a9df61a98be7fdb0",
+        "type": "ui-table",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "group": "e1ec12d4d0fc7af9",
+        "name": "Tabla de Variables Electricas B1",
+        "label": "Analizador de Red - BOMBA 1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": false,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "Variable",
+                "key": "Variable",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Valor Actual",
+                "key": "Valor",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "end"
+            },
+            {
+                "title": "Unidad",
+                "key": "Unidad",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 950,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b23a6e0088c90ee",
+        "type": "ui-table",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "group": "2f7cd6566f640827",
+        "name": "Tabla de Variables Electricas B2",
+        "label": "Analizador de Red - BOMBA 2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": false,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "Variable",
+                "key": "Variable",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Valor Actual",
+                "key": "Valor",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "end"
+            },
+            {
+                "title": "Unidad",
+                "key": "Unidad",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 950,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9699dc16daab02a7",
+        "type": "inject",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "name": "SIMULAR electric - modbus",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[4096,17558,34406,17595,0,17342,5243,16406,0,16968,39322,16217,32768,17555,16384,17589,0,17342,28836,16397,0,16968,31457,16212]",
+        "payloadType": "json",
+        "x": 320,
+        "y": 160,
+        "wires": [
+            [
+                "2469088b7fb7f0ba"
+            ]
+        ]
+    },
+    {
+        "id": "e3d4e3bd51ea4b94",
+        "type": "inject",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "name": "simulacion",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[1,1,1]",
+        "payloadType": "json",
+        "x": 540,
+        "y": 1100,
+        "wires": [
+            [
+                "fn_ff_b1_decode"
+            ]
+        ]
+    },
+    {
+        "id": "b421020f0a40315b",
+        "type": "inject",
+        "z": "tab_abb_banco",
+        "g": "3004fdca14850ac4",
+        "name": "simulacion",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[1,1,1]",
+        "payloadType": "json",
+        "x": 420,
+        "y": 1360,
+        "wires": [
+            [
+                "70c7714593bab02b"
+            ]
+        ]
+    },
+    {
+        "id": "aa157a7b414eea78",
+        "type": "modbus-flex-write",
+        "z": "tab_abb_banco",
+        "g": "ec67dcab9bb655c6",
+        "name": "Enviar al PLC",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "server": "a014513998f95979",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1640,
+        "y": 1140,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7aed9dfcaf40036e",
+        "type": "ui-text-input",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "group": "8e762e8fa935e873",
+        "name": "tiempo de pulso - abrir",
+        "label": "tiempo de pulso - abrir - en segundos",
+        "order": 2,
+        "width": 4,
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "number",
+        "tooltip": "Aqui debe introducir el valor del TP en [seg]",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": true,
+        "sendOnClear": false,
+        "icon": "timer-edit-outline",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 260,
+        "y": 1580,
+        "wires": [
+            [
+                "d44861f2bd3eef1a"
+            ]
+        ]
+    },
+    {
+        "id": "30a4ae46ac4e528e",
+        "type": "ui-text-input",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "group": "8e762e8fa935e873",
+        "name": "tiempo de pulso - cerrar",
+        "label": "tiempo de pulso - cerrar - en segundos",
+        "order": 5,
+        "width": 4,
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "number",
+        "tooltip": "Aqui debe introducir el valor del TP en [seg]",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": true,
+        "sendOnClear": false,
+        "icon": "timer-edit-outline",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 250,
+        "y": 1620,
+        "wires": [
+            [
+                "f878bacfa8e01bf7"
+            ]
+        ]
+    },
+    {
+        "id": "c5d031986ee6903e",
+        "type": "ui-button",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "group": "8e762e8fa935e873",
+        "name": "SOLENOIDE - OPEN VC (NC)",
+        "label": "SOLENOIDE - OPEN VC (NC)",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "btn-pulse",
+        "icon": "pipe-valve",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "#2e7d32",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 230,
+        "y": 1500,
+        "wires": [
+            [
+                "e541f8d7bcdd4bb0"
+            ]
+        ]
+    },
+    {
+        "id": "5c20c7aa95b72919",
+        "type": "ui-button",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "group": "8e762e8fa935e873",
+        "name": "SOLENOIDE - CLOSE VC (NC)",
+        "label": "SOLENOIDE - CLOSE VC (NC)",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "btn-pulse",
+        "icon": "pipe-valve",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "#c62828",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 230,
+        "y": 1540,
+        "wires": [
+            [
+                "4e1d686ea23d34bc"
+            ]
+        ]
+    },
+    {
+        "id": "f3f5c9f1c8ad082c",
+        "type": "ui-template",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "group": "",
+        "page": "",
+        "ui": "123cc8400a3fe6dd",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "/* Botón con efecto de \"hundirse\" al presionar */\n.btn-pulse {\n    transition: transform 0.08s ease-out, box-shadow 0.08s ease-out;\n}\n\n.btn-pulse:active {\n    transform: scale(0.93);\n    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 280,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "61bc098ff6fdbd7f",
+        "type": "link in",
+        "z": "tab_abb_banco",
+        "g": "ec67dcab9bb655c6",
+        "name": "link in 1",
+        "links": [
+            "ce1205d0a8633a47"
+        ],
+        "x": 1305,
+        "y": 1220,
+        "wires": [
+            [
+                "8232dc8eb3478c62"
+            ]
+        ]
+    },
+    {
+        "id": "ce1205d0a8633a47",
+        "type": "link out",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "61bc098ff6fdbd7f"
+        ],
+        "x": 1075,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "d44861f2bd3eef1a",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "preparar modbus",
+        "func": "// Valor numérico que viene del ui_text input\nlet value = Number(msg.payload);\n\n// Validación básica\nif (isNaN(value)) {\n    node.warn(\"El valor recibido no es un número: \" + msg.payload);\n    return null; // no enviamos nada\n}\n\n// Armamos el payload para modbus-flex-write\nmsg.payload = {\n    value: [value],    // array de valores a escribir\n    'fc': 16,          // 16 = Write Multiple Registers (puede ser 6 si configurás así)\n    'unitid': 1,       // ID del esclavo Modbus (ajustalo según tu PLC)\n    'address': 20,     // %MW20 => dirección 20\n    'quantity': 1      // cantidad de registros a escribir\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1580,
+        "wires": [
+            [
+                "ce1205d0a8633a47"
+            ]
+        ]
+    },
+    {
+        "id": "f878bacfa8e01bf7",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "preparar modbus",
+        "func": "// Valor numérico que viene del ui_text input\nlet value = Number(msg.payload);\n\n// Validación básica\nif (isNaN(value)) {\n    node.warn(\"El valor recibido no es un número: \" + msg.payload);\n    return null; // no enviamos nada\n}\n\n// Armamos el payload para modbus-flex-write\nmsg.payload = {\n    value: [value],    // array de valores a escribir\n    'fc': 16,          // 16 = Write Multiple Registers\n    'unitid': 1,       // ID del esclavo Modbus (ajustalo según tu PLC)\n    'address': 21,     // %MW21 => dirección 21\n    'quantity': 1      // cantidad de registros a escribir\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1620,
+        "wires": [
+            [
+                "ce1205d0a8633a47"
+            ]
+        ]
+    },
+    {
+        "id": "e541f8d7bcdd4bb0",
+        "type": "trigger",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "",
+        "op1": "true",
+        "op2": "false",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 470,
+        "y": 1500,
+        "wires": [
+            [
+                "b833ce1407fbcda0"
+            ]
+        ]
+    },
+    {
+        "id": "4e1d686ea23d34bc",
+        "type": "trigger",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "",
+        "op1": "true",
+        "op2": "false",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 470,
+        "y": 1540,
+        "wires": [
+            [
+                "6682057330aa40e6"
+            ]
+        ]
+    },
+    {
+        "id": "a321d630c5170342",
+        "type": "inject",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 1100,
+        "wires": [
+            [
+                "ad22231a09c0932b",
+                "def755fdf659f382"
+            ]
+        ]
+    },
+    {
+        "id": "39a1bfe078769774",
+        "type": "ui-button",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "group": "e1ec12d4d0fc7af9",
+        "name": "reset comunicacion",
+        "label": "Reset COMUNICACIÓN",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "restart-alert",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "#a5a5a5",
+        "textColor": "#333333",
+        "iconColor": "#333333",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 330,
+        "y": 220,
+        "wires": [
+            [
+                "4bd3a4bc0a41acb2"
+            ]
+        ]
+    },
+    {
+        "id": "4bd3a4bc0a41acb2",
+        "type": "trigger",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "name": "",
+        "op1": "true",
+        "op2": "false",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "250",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "d0e875786044dc98"
+            ]
+        ]
+    },
+    {
+        "id": "d0e875786044dc98",
+        "type": "modbus-write",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "name": "%M27 (reset SL 1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "27",
+        "quantity": "1",
+        "server": "a014513998f95979",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 730,
+        "y": 220,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c71cb63d4959367f",
+        "type": "modbus-read",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Modbus Read - Sensores (HYD)",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1",
+        "quantity": "16",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "a014513998f95979",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 250,
+        "y": 500,
+        "wires": [
+            [
+                "29b7e6b5d07f970e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "29b7e6b5d07f970e",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "funcion Modbus a Flow (HYD)",
+        "func": "// HIDRÁULICAS: Espera 16 registros: %MW1..%MW16 (para formar MF1..MF15)\nlet regs = msg.payload;\n\n// Si llega Buffer, convertir a array uint16\nif (Buffer.isBuffer(regs)) {\n    const arr = [];\n    for (let i = 0; i < regs.length; i += 2) arr.push(regs.readUInt16BE(i));\n    regs = arr;\n}\n\nif (!Array.isArray(regs) || regs.length < 16) {\n    node.error(\"Se esperaban 16 registros (MW1..MW16). Revisá Quantity en el Modbus Read hidráulico.\", msg);\n    return [null, null];\n}\n\n// 2 words -> float IEEE-754 big-endian (MSW, LSW)\nfunction toFloatBE(msw, lsw) {\n    const buf = Buffer.alloc(4);\n    buf.writeUInt16BE(msw & 0xFFFF, 0);\n    buf.writeUInt16BE(lsw & 0xFFFF, 2);\n    return buf.readFloatBE(0);\n}\n\n// regs[0]=MW1. Cada float usa (LSW=i, MSW=i+1)\nfunction floatFromLSWIndex(iLSW) {\n    return toFloatBE(regs[iLSW + 1], regs[iLSW]);\n}\n\n// Según tu tabla:\n// MF1 = MW1-2, MF3 = MW3-4, ... MF15 = MW15-16\nlet PR_11 = floatFromLSWIndex(0);   // MF1\nlet PR_12 = floatFromLSWIndex(2);   // MF3\nlet PR_21 = floatFromLSWIndex(4);   // MF5\nlet PR_22 = floatFromLSWIndex(6);   // MF7\nlet PR_1Q = floatFromLSWIndex(8);   // MF9\nlet PR_2Q = floatFromLSWIndex(10);  // MF11\nlet FE_AO = floatFromLSWIndex(12);  // MF13\nlet TR_01 = floatFromLSWIndex(14);  // MF15\n\n// Redondeo (ajustá a gusto)\nPR_11 = Number(PR_11.toFixed(3));\nPR_12 = Number(PR_12.toFixed(3));\nPR_21 = Number(PR_21.toFixed(3));\nPR_22 = Number(PR_22.toFixed(3));\nPR_1Q = Number(PR_1Q.toFixed(3));\nPR_2Q = Number(PR_2Q.toFixed(3));\nFE_AO = Number(FE_AO.toFixed(2));\nTR_01 = Number(TR_01.toFixed(2));\n\n// Paquete hidráulico “último”\nconst hyd_last = {\n    timestamp: new Date().toISOString(),\n    PR_11, PR_12, PR_21, PR_22,\n    PR_1Q, PR_2Q,\n    FE_AO,\n    TR_01,\n    _ts_ms: Date.now()\n};\n\n// Guardar en flow para el botón snapshot/CSV\nflow.set(\"hyd_last\", hyd_last);\n\n// Si querés también cada variable suelta en flow (opcional)\nObject.entries(hyd_last).forEach(([k,v]) => flow.set(k, v));\n\n// Opción tabla (para ui-table)\nconst tablaHyd = [\n    { Variable: \"PR_11\", Valor: PR_11, Unidad: \"bar\"  },\n    { Variable: \"PR_12\", Valor: PR_12, Unidad: \"bar\"  },\n    { Variable: \"PR_21\", Valor: PR_21, Unidad: \"bar\"  },\n    { Variable: \"PR_22\", Valor: PR_22, Unidad: \"bar\"  },\n    { Variable: \"PR_1Q\", Valor: PR_1Q, Unidad: \"bar\"  },\n    { Variable: \"PR_2Q\", Valor: PR_2Q, Unidad: \"bar\"  },\n    { Variable: \"FE_AO\", Valor: FE_AO, Unidad: \"m³/h\" },\n    { Variable: \"TR_01\", Valor: TR_01, Unidad: \"°C\"   }\n];\n\n// SALIDA 1: objeto para gauges | SALIDA 2: tabla opcional\nreturn [\n    { payload: hyd_last },\n    { payload: tablaHyd }\n];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 540,
+        "wires": [
+            [
+                "0adf26535b59db21",
+                "d428694cd571c28b",
+                "483aadbf26000edc",
+                "f1132877b5de879a",
+                "3f52cd0534aafe0f",
+                "45e3a0a5546be9a0",
+                "51d27fbfc5b4c97a",
+                "7f400da1c8369eea"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0adf26535b59db21",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Solo PR_11",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PR_11",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 500,
+        "wires": [
+            [
+                "2645ca0d5c922888"
+            ]
+        ]
+    },
+    {
+        "id": "d428694cd571c28b",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Solo PR_12",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PR_12",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 540,
+        "wires": [
+            [
+                "221775f19e9a7636"
+            ]
+        ]
+    },
+    {
+        "id": "ab3f8382d108fc7c",
+        "type": "inject",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "simular HYD - modbus",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[0,16320,13107,16435,0,16256,0,16416,26214,16358,39322,16345,13107,16951,13107,16843]",
+        "payloadType": "json",
+        "x": 220,
+        "y": 580,
+        "wires": [
+            [
+                "29b7e6b5d07f970e"
+            ]
+        ]
+    },
+    {
+        "id": "483aadbf26000edc",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Solo PR_21",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PR_21",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 580,
+        "wires": [
+            [
+                "8586887fee3f71b1"
+            ]
+        ]
+    },
+    {
+        "id": "f1132877b5de879a",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Solo PR_22",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PR_22",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 620,
+        "wires": [
+            [
+                "9e4d5ec685e2756d"
+            ]
+        ]
+    },
+    {
+        "id": "3f52cd0534aafe0f",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Solo PR_1Q",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PR_1Q",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 660,
+        "wires": [
+            [
+                "e56879dba3127991"
+            ]
+        ]
+    },
+    {
+        "id": "45e3a0a5546be9a0",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Solo PR_2Q",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PR_2Q",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 700,
+        "wires": [
+            [
+                "342417e4f4feeab2"
+            ]
+        ]
+    },
+    {
+        "id": "51d27fbfc5b4c97a",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Solo Caudal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.FE_AO",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 740,
+        "wires": [
+            [
+                "0a60df0863cb707f"
+            ]
+        ]
+    },
+    {
+        "id": "7f400da1c8369eea",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Solo temperatura",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.TR_01",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 780,
+        "wires": [
+            [
+                "26f060a096eaca4d"
+            ]
+        ]
+    },
+    {
+        "id": "26f060a096eaca4d",
+        "type": "ui-gauge",
+        "z": "tab_abb_banco",
+        "g": "43cd2f446fbfc038",
+        "name": "Temperatura",
+        "group": "4a35cb1b2d454b8c",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "0",
+        "height": "0",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temperatura",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#1bde42",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "0",
+        "max": "80",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1010,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8747e15140afed47",
+        "type": "inject",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.2",
+        "topic": "",
+        "payload": "PARADA_B1",
+        "payloadType": "str",
+        "x": 190,
+        "y": 980,
+        "wires": [
+            [
+                "8c7ed0db9543a022"
+            ]
+        ]
+    },
+    {
+        "id": "09cbd1b9fda0b9dd",
+        "type": "inject",
+        "z": "tab_abb_banco",
+        "g": "3004fdca14850ac4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.2",
+        "topic": "",
+        "payload": "PARADA_B2",
+        "payloadType": "str",
+        "x": 190,
+        "y": 1240,
+        "wires": [
+            [
+                "d1e398e62c2c184c"
+            ]
+        ]
+    },
+    {
+        "id": "06689f61964e87dd",
+        "type": "ui-button",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "group": "2f7cd6566f640827",
+        "name": "reset comunicacion",
+        "label": "Reset COMUNICACIÓN",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "restart-alert",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "#a5a5a5",
+        "textColor": "#333333",
+        "iconColor": "#333333",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 330,
+        "y": 260,
+        "wires": [
+            [
+                "3252e01a50bdec71"
+            ]
+        ]
+    },
+    {
+        "id": "3252e01a50bdec71",
+        "type": "trigger",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "name": "",
+        "op1": "true",
+        "op2": "false",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "250",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 530,
+        "y": 260,
+        "wires": [
+            [
+                "1df9bd36c24e4767"
+            ]
+        ]
+    },
+    {
+        "id": "1df9bd36c24e4767",
+        "type": "modbus-write",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "name": "%M28 (reset SL 2)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "28",
+        "quantity": "1",
+        "server": "a014513998f95979",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 730,
+        "y": 260,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8232dc8eb3478c62",
+        "type": "delay",
+        "z": "tab_abb_banco",
+        "g": "ec67dcab9bb655c6",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "2",
+        "nbRateUnits": "0.5",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1450,
+        "y": 1140,
+        "wires": [
+            [
+                "aa157a7b414eea78"
+            ]
+        ]
+    },
+    {
+        "id": "ce0f82d4fd273c2b",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "FC5 - escribir bobina (genérico)",
+        "func": "// Espera:\n// - msg.coil : número (dirección de bobina, 0-based)\n// - msg.payload : boolean / 0-1 (valor a escribir)\n// Opcional:\n// - msg.unitid : id del esclavo (si aplica; en Modbus TCP suele ser 1)\n\nconst address = Number(msg.coil);\nif (!Number.isFinite(address)) {\n    node.error(\"msg.coil no es un número válido (address). Revisá el Change node.\", msg);\n    return null;\n}\n\n// Normaliza el valor a boolean\nlet v = msg.payload;\nif (typeof v === \"string\") v = v.toLowerCase();\nconst value =\n    (v === true) || (v === 1) || (v === \"1\") || (v === \"true\") || (v === \"on\");\n\n// Construye el payload que espera el Modbus Flex Write\nmsg.payload = {\n    fc: 5,                 // FC5 = Write Single Coil\n    unitid: msg.unitid ?? 1,\n    address: address,       // OJO: 0-based\n    quantity: 1,\n    value: value            // boolean\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 1520,
+        "wires": [
+            [
+                "ce1205d0a8633a47"
+            ]
+        ]
+    },
+    {
+        "id": "b833ce1407fbcda0",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "coil",
+                "pt": "msg",
+                "to": "5",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1500,
+        "wires": [
+            [
+                "ce0f82d4fd273c2b"
+            ]
+        ]
+    },
+    {
+        "id": "6682057330aa40e6",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "coil",
+                "pt": "msg",
+                "to": "6",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 1540,
+        "wires": [
+            [
+                "ce0f82d4fd273c2b"
+            ]
+        ]
+    },
+    {
+        "id": "a303aabcace578eb",
+        "type": "link in",
+        "z": "tab_abb_banco",
+        "g": "ec67dcab9bb655c6",
+        "name": "link in 2",
+        "links": [
+            "68e2fd9f9cdbdbb7"
+        ],
+        "x": 1305,
+        "y": 1080,
+        "wires": [
+            [
+                "8232dc8eb3478c62"
+            ]
+        ]
+    },
+    {
+        "id": "68e2fd9f9cdbdbb7",
+        "type": "link out",
+        "z": "tab_abb_banco",
+        "g": "ad62bcbe4d9b9637",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "a303aabcace578eb"
+        ],
+        "x": 1115,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "94cbd12077617033",
+        "type": "link in",
+        "z": "tab_abb_banco",
+        "g": "ec67dcab9bb655c6",
+        "name": "link in 3",
+        "links": [
+            "a5ebccd99462c48f"
+        ],
+        "x": 1245,
+        "y": 1140,
+        "wires": [
+            [
+                "8232dc8eb3478c62"
+            ]
+        ]
+    },
+    {
+        "id": "a5ebccd99462c48f",
+        "type": "link out",
+        "z": "tab_abb_banco",
+        "g": "3004fdca14850ac4",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "94cbd12077617033"
+        ],
+        "x": 1035,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "416a5ec422bf4f24",
+        "type": "modbus-read",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "Modbus Read - Banderas Solenoides",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "7",
+        "quantity": "2",
+        "rate": "500",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "a014513998f95979",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 290,
+        "y": 1680,
+        "wires": [
+            [
+                "3ec5f6c0d4eebc9c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4063be2330e145c2",
+        "type": "ui-led",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "FY-1 LED",
+        "group": "8e762e8fa935e873",
+        "order": 3,
+        "width": 1,
+        "height": 0,
+        "label": "FY-1",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "states": [
+            {
+                "value": "false",
+                "valueType": "bool",
+                "color": "#ff0000"
+            },
+            {
+                "value": "true",
+                "valueType": "bool",
+                "color": "#00ff00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 800,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "5745bfab80d57909",
+        "type": "ui-led",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "FY-2 LED ",
+        "group": "8e762e8fa935e873",
+        "order": 6,
+        "width": 1,
+        "height": 0,
+        "label": "FY-2",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "states": [
+            {
+                "value": "false",
+                "valueType": "bool",
+                "color": "#ff0000"
+            },
+            {
+                "value": "true",
+                "valueType": "bool",
+                "color": "#00ff00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 800,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "3ec5f6c0d4eebc9c",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "b0b1fdb516e4b236",
+        "name": "traductor",
+        "func": "/**\n * Lee %M7 y %M8 desde un Modbus Read y entrega 2 salidas:\n *  - Salida 1 -> estado Solenoide 1 (M7)\n *  - Salida 2 -> estado Solenoide 2 (M8)\n *\n * Esperado desde modbus read:\n *  msg.payload = [M7, M8]  (pueden venir como true/false o 1/0)\n *  o a veces msg.payload = { data: [M7, M8], ... }\n */\n\n// Convierte 0/1, \"0\"/\"1\", true/false a boolean\nfunction toBool(v) {\n    return (v === true || v === 1 || v === \"1\");\n}\n\n// Extraer array de datos (según cómo venga el nodo modbus)\nlet data = null;\n\nif (Array.isArray(msg.payload)) {\n    data = msg.payload;\n} else if (msg.payload && Array.isArray(msg.payload.data)) {\n    data = msg.payload.data;\n}\n\nif (!data || data.length < 2) {\n    node.error(\"Se esperaban 2 valores (M7 y M8). Revisá que el Modbus Read lea 2 coils.\", msg);\n    return [null, null];\n}\n\n// Asignación: asumimos que el Modbus Read está leyendo desde M7 cantidad=2\nconst M7 = toBool(data[0]);  // Solenoide 1\nconst M8 = toBool(data[1]);  // Solenoide 2\n\n// Armar mensajes para cada ui-led\nconst msgSol1 = {\n    payload: M7,\n    topic: \"Solenoide 1 (M7)\"\n};\n\nconst msgSol2 = {\n    payload: M8,\n    topic: \"Solenoide 2 (M8)\"\n};\n\nreturn [msgSol1, msgSol2];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 1680,
+        "wires": [
+            [
+                "4063be2330e145c2"
+            ],
+            [
+                "5745bfab80d57909"
+            ]
+        ]
+    },
+    {
+        "id": "7850ff0a60bbebb1",
+        "type": "ui-text-input",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "group": "grp_gestion_datos",
+        "name": "Nombre del Archivo",
+        "label": "Nombre del Ensayo",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "topic": "filename",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": false,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": true,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 210,
+        "y": 1840,
+        "wires": [
+            [
+                "set_global_filename"
+            ]
+        ]
+    },
+    {
+        "id": "2af45a15306e3085",
+        "type": "ui-button",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "group": "grp_gestion_datos",
+        "name": "Capturar Punto de Ensayo",
+        "label": "CAPTURAR PUNTO",
+        "order": 3,
+        "width": "6",
+        "height": "1",
+        "emulateClick": false,
+        "color": "#ffffff",
+        "bgcolor": "#0088CE",
+        "className": "",
+        "icon": "content-save-check",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "capture",
+        "topicType": "str",
+        "buttonColor": "#64DD17",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 220,
+        "y": 1900,
+        "wires": [
+            [
+                "1d2a40086d23a609",
+                "9d1f6c9c978fd91b"
+            ]
+        ]
+    },
+    {
+        "id": "1d2a40086d23a609",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "name": "Fusionar Elec+Hyd (Contexto)",
+        "func": "var modo = global.get(\"modo_ensayo\");\nvar nombreArchivo = global.get(\"nombre_archivo\") || \"Ensayo_Sin_Nombre\";\n\nvar elec = flow.get(\"elec_last\") || {};\nvar hyd = flow.get(\"hyd_last\") || {};\n\n// 3. TIMESTAMP CON ZONA HORARIA FORZADA A ARGENTINA\nvar now = new Date();\nvar opciones = { timeZone: 'America/Argentina/Buenos_Aires', hour12: false };\n\nvar fecha = now.toLocaleDateString('es-AR', opciones);\nvar hora = now.toLocaleTimeString('es-AR', opciones);\nvar ts = fecha + ' ' + hora;\n\nvar datos = {\n    Time: ts,\n    Modo: modo || \"Sin Seleccion\",\n    Caudal_m3h: hyd.FE_AO || 0,\n    Temp_C: hyd.TR_01 || 0,\n    PR_1Q: hyd.PR_1Q || 0,\n    PR_2Q: hyd.PR_2Q || 0,\n    PR_11: 0, PR_12: 0,\n    B1_Pot: 0, B1_Corr: 0, B1_Tens: 0, B1_Frec: 0, B1_PF: 0,\n    PR_21: 0, PR_22: 0,\n    B2_Pot: 0, B2_Corr: 0, B2_Tens: 0, B2_Frec: 0, B2_PF: 0\n};\n\nif (modo === \"Bomba 1\") {\n    datos.PR_11 = hyd.PR_11 || 0;\n    datos.PR_12 = hyd.PR_12 || 0;\n    datos.B1_Pot = elec.POT_B1 || 0;\n    datos.B1_Corr = elec.CURRENT_B1 || 0;\n    datos.B1_Tens = elec.V_FASE_B1 || 0;\n    datos.B1_Frec = elec.FREQUENCY_B1 || 0;\n    datos.B1_PF = elec.PF_B1 || 0;\n}\nelse if (modo === \"Bomba 2\") {\n    datos.PR_21 = hyd.PR_21 || 0;\n    datos.PR_22 = hyd.PR_22 || 0;\n    datos.B2_Pot = elec.POT_B2 || 0;\n    datos.B2_Corr = elec.CURRENT_B2 || 0;\n    datos.B2_Tens = elec.V_FASE_B2 || 0;\n    datos.B2_Frec = elec.FREQUENCY_B2 || 0;\n    datos.B2_PF = elec.PF_B2 || 0;\n}\nelse if (modo === \"Serie\" || modo === \"Paralelo\") {\n    datos.PR_11 = hyd.PR_11 || 0;\n    datos.PR_12 = hyd.PR_12 || 0;\n    datos.B1_Pot = elec.POT_B1 || 0;\n    datos.B1_Corr = elec.CURRENT_B1 || 0;\n    datos.B1_Tens = elec.V_FASE_B1 || 0;\n    datos.B1_Frec = elec.FREQUENCY_B1 || 0;\n    datos.B1_PF = elec.PF_B1 || 0;\n    datos.PR_21 = hyd.PR_21 || 0;\n    datos.PR_22 = hyd.PR_22 || 0;\n    datos.B2_Pot = elec.POT_B2 || 0;\n    datos.B2_Corr = elec.CURRENT_B2 || 0;\n    datos.B2_Tens = elec.V_FASE_B2 || 0;\n    datos.B2_Frec = elec.FREQUENCY_B2 || 0;\n    datos.B2_PF = elec.PF_B2 || 0;\n}\n\n// Asignar el nombre dinámico del archivo al mensaje\nmsg.filename = \"./\" + nombreArchivo + \".csv\";\nmsg.payload = datos;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 1900,
+        "wires": [
+            [
+                "5c5e76777b391101"
+            ]
+        ]
+    },
+    {
+        "id": "5c5e76777b391101",
+        "type": "csv",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "name": "Formato CSV",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "Time,Modo,Caudal_m3h,Temp_C,PR_1Q,PR_2Q,PR_11,PR_12,B1_Pot,B1_Corr,B1_Tens,B1_Frec,B1_PF,PR_21,PR_22,B2_Pot,B2_Corr,B2_Tens,B2_Frec,B2_PF",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 790,
+        "y": 1900,
+        "wires": [
+            [
+                "15cd691b3a54fd63"
+            ]
+        ]
+    },
+    {
+        "id": "15cd691b3a54fd63",
+        "type": "file",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "name": "Guardar dinámico",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1010,
+        "y": 1900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d1f6c9c978fd91b",
+        "type": "ui-notification",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "ui": "123cc8400a3fe6dd",
+        "position": "bottom right",
+        "colorDefault": false,
+        "color": "#00cc4e",
+        "displayTime": "2",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Cerrar",
+        "allowConfirm": false,
+        "confirmText": "",
+        "raw": false,
+        "className": "",
+        "name": "",
+        "x": 510,
+        "y": 1960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "set_global_filename",
+        "type": "change",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "name": "Guardar Nombre",
+        "rules": [
+            {
+                "t": "set",
+                "p": "nombre_archivo",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 1840,
+        "wires": [
+            [
+                "fn_format_toast_name"
+            ]
+        ]
+    },
+    {
+        "id": "fn_format_toast_name",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "name": "Formatear Mensaje",
+        "func": "// Verificamos que el usuario haya escrito algo y no esté vacío\nif (msg.payload && msg.payload.trim() !== \"\") {\n    msg.payload = \"Archivo configurado con éxito: \" + msg.payload;\n    return msg;\n}\nreturn null; // Si está vacío, no mostramos el pop-up",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1840,
+        "wires": [
+            [
+                "ui_toast_filename"
+            ]
+        ]
+    },
+    {
+        "id": "ui_toast_filename",
+        "type": "ui-notification",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "ui": "123cc8400a3fe6dd",
+        "position": "bottom right",
+        "colorDefault": false,
+        "color": "#0088CE",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Cerrar",
+        "allowConfirm": false,
+        "confirmText": "",
+        "raw": false,
+        "className": "",
+        "name": "Notificación Nombre",
+        "x": 980,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32282781252910cd",
+        "type": "ui-button",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "group": "grp_gestion_datos",
+        "name": "Inicializar Archivo CSV",
+        "label": "INICIAR NUEVO ENSAYO (RESET)",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "emulateClick": false,
+        "color": "#ffffff",
+        "bgcolor": "#d32f2f",
+        "className": "",
+        "icon": "new-box",
+        "iconPosition": "left",
+        "payload": "⚠️ ¿Estás seguro de que deseas iniciar un ensayo nuevo? Se sobrescribirá el archivo y se borrarán los datos anteriores.",
+        "payloadType": "str",
+        "topic": "init_file",
+        "topicType": "str",
+        "buttonColor": "#64DD17",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 190,
+        "y": 2020,
+        "wires": [
+            [
+                "92d1992fb6fedd39"
+            ]
+        ]
+    },
+    {
+        "id": "92d1992fb6fedd39",
+        "type": "ui-notification",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "ui": "123cc8400a3fe6dd",
+        "position": "center center",
+        "colorDefault": false,
+        "color": "#31d34c",
+        "displayTime": "0",
+        "showCountdown": false,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "CANCELAR",
+        "allowConfirm": true,
+        "confirmText": "SÍ, SOBRESCRIBIR",
+        "raw": false,
+        "className": "",
+        "name": "Confirmar Reseteo",
+        "x": 420,
+        "y": 2020,
+        "wires": [
+            [
+                "b53c59e20a5659e7",
+                "fcb6e03900b39434"
+            ]
+        ]
+    },
+    {
+        "id": "b53c59e20a5659e7",
+        "type": "function",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "name": "Asignar Nombre y Encabezados",
+        "func": "// 1. Vemos qué está llegando por detrás (para la pestaña Debug)\nnode.warn(\"Mensaje recibido: \" + msg.payload);\n\n// 2. LA REGLA ESTRICTA: Solo dejamos pasar el flujo si el usuario hizo clic en \"SÍ, SOBRESCRIBIR\".\n// En Dashboard 2.0, ese clic envía exactamente el texto \"confirm_clicked\".\n// Cualquier otra cosa (el texto original o el clic en cancelar) morirá aquí mismo.\nif (msg.payload !== \"confirm_clicked\") {\n    return null; // Detiene el flujo al instante\n}\n\n// 3. SI EL USUARIO CONFIRMÓ REALMENTE, PROCEDEMOS A SOBRESCRIBIR:\nvar nombreArchivo = global.get(\"nombre_archivo\") || \"Ensayo_Sin_Nombre\";\n\nvar msgFile = {\n    filename: \"./\" + nombreArchivo + \".csv\",\n    payload: \"Time,Modo,Caudal_m3h,Temp_C,PR_1Q,PR_2Q,PR_11_SucB1,PR_12_ImpB1,B1_Pot_W,B1_Corr_A,B1_Tens_V,B1_Frec_Hz,B1_PF,PR_21_SucB2,PR_22_ImpB2,B2_Pot_W,B2_Corr_A,B2_Tens_V,B2_Frec_Hz,B2_PF\"\n};\n\nvar msgToast = {\n    payload: \"Archivo '\" + nombreArchivo + \".csv' reiniciado/limpiado con éxito.\"\n};\n\nreturn [msgFile, msgToast];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 2020,
+        "wires": [
+            [
+                "80bd4b203030b668"
+            ],
+            [
+                "631c9edf5abf101b"
+            ]
+        ]
+    },
+    {
+        "id": "631c9edf5abf101b",
+        "type": "ui-notification",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "ui": "123cc8400a3fe6dd",
+        "position": "bottom right",
+        "colorDefault": false,
+        "color": "#00cc4e",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Cerrar",
+        "allowConfirm": false,
+        "confirmText": "",
+        "raw": false,
+        "className": "",
+        "name": "Éxito Reseteo",
+        "x": 940,
+        "y": 2060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "80bd4b203030b668",
+        "type": "file",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "name": "Sobrescribir Encabezados",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 970,
+        "y": 2000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcb6e03900b39434",
+        "type": "debug",
+        "z": "tab_abb_banco",
+        "g": "5539db3c5822d3c5",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "85dfcd7f838ac069",
+        "type": "ui-group",
+        "name": "VFD_B1",
+        "page": "0127e18ded0bd5d0",
+        "width": "6",
+        "height": 1,
+        "order": 8,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a014513998f95979",
+        "type": "modbus-client",
+        "name": "",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.2.30",
+        "tcpPort": 502,
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": 9600,
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 5000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "3819de8f3e195d99",
+        "type": "ui-group",
+        "name": "VFD_B2",
+        "page": "0127e18ded0bd5d0",
+        "width": 6,
+        "height": 1,
+        "order": 9,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3ae4f786a6e3e55e",
+        "type": "ui-group",
+        "name": "HYD_B1",
+        "page": "0127e18ded0bd5d0",
+        "width": 2,
+        "height": 1,
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a3835f538e9c16d4",
+        "type": "ui-group",
+        "name": "HYD_B2",
+        "page": "0127e18ded0bd5d0",
+        "width": "2",
+        "height": 1,
+        "order": 6,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "d9fb9eb1d9102a96",
+        "type": "ui-group",
+        "name": "HYD_COMMON",
+        "page": "0127e18ded0bd5d0",
+        "width": 2,
+        "height": 1,
+        "order": 7,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e1ec12d4d0fc7af9",
+        "type": "ui-group",
+        "name": "ELEC_B1",
+        "page": "0127e18ded0bd5d0",
+        "width": 6,
+        "height": 1,
+        "order": 11,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "2f7cd6566f640827",
+        "type": "ui-group",
+        "name": "ELEC_B2",
+        "page": "0127e18ded0bd5d0",
+        "width": 6,
+        "height": 1,
+        "order": 12,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8e762e8fa935e873",
+        "type": "ui-group",
+        "name": "Valvula de Control",
+        "page": "0127e18ded0bd5d0",
+        "width": "12",
+        "height": 1,
+        "order": 10,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "info": "La valvula de control, posee un boton para\r\nhabilitar el solenoide que cierra la VC\r\ny tambien modificar el tiempo de pulso\r\nLo mismo para el solenoide que abre la valvula\r\n"
+    },
+    {
+        "id": "123cc8400a3fe6dd",
+        "type": "ui-base",
+        "name": "SCADA_1",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "4a35cb1b2d454b8c",
+        "type": "ui-group",
+        "name": "Temperatura",
+        "page": "498da436784e6308",
+        "width": 6,
+        "height": 1,
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "grp_gestion_datos",
+        "type": "ui-group",
+        "name": "GESTIÓN DE ENSAYOS",
+        "page": "0127e18ded0bd5d0",
+        "width": 12,
+        "height": "1",
+        "order": 13,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0127e18ded0bd5d0",
+        "type": "ui-page",
+        "name": "SCADA",
+        "ui": "123cc8400a3fe6dd",
+        "path": "/SCADA",
+        "icon": "pump",
+        "layout": "grid",
+        "theme": "089f5a59e3be05e6",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "498da436784e6308",
+        "type": "ui-page",
+        "name": "MENU PRINCIPAL",
+        "ui": "123cc8400a3fe6dd",
+        "path": "/MAIN_MENU",
+        "icon": "home",
+        "layout": "notebook",
+        "theme": "089f5a59e3be05e6",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "089f5a59e3be05e6",
+        "type": "ui-theme",
+        "name": "Pages Themes",
+        "colors": {
+            "surface": "#000000",
+            "primary": "#10e401",
+            "bgPage": "#ffffff",
+            "groupBg": "#000000",
+            "groupOutline": "#00d103"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "8px",
+            "groupGap": "8px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "8px"
+        }
+    },
+    {
+        "id": "da6e54315b5f8f9c",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-modbus": "5.45.2",
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0"
+        }
+    }
+]
