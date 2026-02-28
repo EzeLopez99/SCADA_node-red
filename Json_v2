@@ -1,0 +1,152 @@
+[
+    {
+        "id": "a9df61a98be7fdb0",
+        "type": "ui-table",
+        "z": "tab_abb_banco",
+        "g": "3031252e336a90bd",
+        "group": "e1ec12d4d0fc7af9",
+        "name": "Tabla de Variables Electricas B1",
+        "label": "Analizador de Red - BOMBA 1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": false,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "Variable",
+                "key": "Variable",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Valor Actual",
+                "key": "Valor",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "end"
+            },
+            {
+                "title": "Unidad",
+                "key": "Unidad",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "",
+        "mobileBreakpointType": "none",
+        "action": "replace",
+        "className": "",
+        "x": 950,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e1ec12d4d0fc7af9",
+        "type": "ui-group",
+        "name": "ELEC_B1",
+        "page": "0127e18ded0bd5d0",
+        "width": 6,
+        "height": 1,
+        "order": 11,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0127e18ded0bd5d0",
+        "type": "ui-page",
+        "name": "SCADA",
+        "ui": "123cc8400a3fe6dd",
+        "path": "/SCADA",
+        "icon": "pump",
+        "layout": "grid",
+        "theme": "68b4b07f31aec5ec",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "123cc8400a3fe6dd",
+        "type": "ui-base",
+        "name": "SCADA_1",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "68b4b07f31aec5ec",
+        "type": "ui-theme",
+        "name": "ui-base.label.theme 2",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#f00000",
+            "bgPage": "#000000",
+            "groupBg": "#000000",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "30c0fb979744ba30",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2"
+        }
+    }
+]
